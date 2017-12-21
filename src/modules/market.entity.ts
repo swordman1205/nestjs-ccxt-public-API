@@ -1,4 +1,4 @@
-import { Table, Column, Model } from 'sequelize-typescript';
+import { Table, Column, Model, DataType } from 'sequelize-typescript';
 
 @Table
 export class Market extends Model<Market> {
@@ -8,9 +8,9 @@ export class Market extends Model<Market> {
   @Column
   coin: string;
 
-  @Column
+  @Column(DataType.FLOAT)
   value: number;
 
-  @Column
+  @Column(DataType.STRING)
   updated: number;
 }
