@@ -2,7 +2,7 @@
   "duration": 5,
   "connection": { 
     "driver": "mysql",
-    "host": "localhost",
+    "host": "54.201.209.33",
     "port": "3306",
     "username": "root",
     "password": "root",
